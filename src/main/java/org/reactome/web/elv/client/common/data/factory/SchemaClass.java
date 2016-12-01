@@ -47,6 +47,7 @@ public enum SchemaClass {
     INTRA_CHAIN_CROSSLINKED_RESIDUE("IntraChainCrosslinkedResidue"),
     LITERATURE_REFERENCE("LiteratureReference"),
     MODIFIED_RESIDUE("ModifiedResidue"),
+    NEGATIVE_GENE_EXPRESSION_REGULATION("NegativeGeneExpressionRegulation"), // JP
     NEGATIVE_REGULATION("NegativeRegulation"),
     OPEN_SET("OpenSet"),
     OTHER_ENTITY("OtherEntity"),
@@ -55,6 +56,7 @@ public enum SchemaClass {
     PHYSICAL_ENTITY("PhysicalEntity"),
     POLYMER("Polymer"),
     POLYMERISATION("Polymerisation"),
+    POSITIVE_GENE_EXPRESSION_REGULATION("PositiveGeneExpressionRegulation"), // JP
     POSITIVE_REGULATION("PositiveRegulation"),
     PSI_MOD("PsiMod"),
     PUBLICATION("Publication"),

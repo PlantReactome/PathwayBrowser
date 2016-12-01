@@ -8,6 +8,9 @@ import org.reactome.web.elv.client.common.data.factory.SchemaClass;
  */
 public class NegativeRegulation extends Regulation {
 
+    public NegativeRegulation(SchemaClass schemaClass){
+        super(schemaClass);
+    }
     public NegativeRegulation(JSONObject jsonObject) {
         super(SchemaClass.NEGATIVE_REGULATION, jsonObject);
     }
